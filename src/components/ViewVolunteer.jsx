@@ -6,7 +6,7 @@ const ViewVolunteer = () => {
     const [data, changeData] = useState([])
 
     const fetchData = () => {
-        axios.get("http://localhost:3000/view-vol").then(
+        axios.post("http://localhost:3000/view-vol").then(
 
             (response) => {
                 changeData(response.data)
