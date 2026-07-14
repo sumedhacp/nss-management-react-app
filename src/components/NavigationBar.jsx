@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const NavigationBar = () => {
     return (
         <div>
-            <NavigationBar />
+            
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"><img src="https://i.pinimg.com/564x/b3/1b/58/b31b58a0790bb60eeabc0d1a2d855b68.jpg" style={{ width: '65px', height: '65px' }} alt="Logo" /></a>
